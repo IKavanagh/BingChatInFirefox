@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Bing Chat in Firefox",
+  "version": "1.0.0",
+  "description": "Enables Bing Chat in Firefox.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

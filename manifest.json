@@ -3,6 +3,10 @@
   "name": "Bing Chat in Firefox",
   "version": "1.0.0",
   "description": "Enables Bing Chat in Firefox.",
+  "icons": {
+    "48": "icons/icon.png",
+    "96": "icons/icon@2x.png"
+  },
   "permissions": [
     "webRequest",
     "webRequestBlocking",

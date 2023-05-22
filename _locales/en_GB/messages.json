@@ -1,0 +1,11 @@
+{
+    "addonName": {
+      "message": "Bing Chat in Firefox"
+    },
+    "addonDescription": {
+      "message": "Enables Bing Chat in Firefox."
+    },
+    "addonAuthorsList": {
+      "message": "Ian Kavanagh <iankavanaghie@gmail.com>"
+    }
+  }

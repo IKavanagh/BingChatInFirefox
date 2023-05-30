@@ -8,6 +8,10 @@ This repository contains a Firefox add-on that modifies the user-agent string se
 
 ## Installation
 
+You can install the add-on from the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/enable-bing-chat/) website.
+
+## Debugging
+
 You can install the add-on by following these steps:
 
 1. Clone or download this repository to your local machine.

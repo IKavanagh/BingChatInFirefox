@@ -1,7 +1,7 @@
 # Enable Bing Chat in Firefox Add-on
 
 <p align="center">
-    <img src="./image.jpg" alt="Bing Chat in Firefox" height="250" width="250" />
+    <img src="./logo.png" alt="Bing Chat in Firefox" height="128" width="128" />
 </p>
 
 This repository contains a Firefox add-on that modifies the user-agent string sent with requests to [bing.com](http://bing.com), [msn.com](http://msn.com), [live.com](http://live.com). It modifies the user-agent string to appear as if the request is coming from the Microsoft Edge browser. Bing Chat is only available on Microsoft Edge.

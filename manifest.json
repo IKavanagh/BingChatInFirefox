@@ -11,6 +11,7 @@
     "96": "icons/icon@2x.png"
   },
   "permissions": [
+    "activeTab",
     "webRequest",
     "webRequestBlocking",
     "*://*.bing.com/*",
@@ -19,5 +20,18 @@
   ],
   "background": {
     "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icons/icon.png",
+    "default_title": "__MSG_addonName__"
+  },
+  "sidebar_action": {
+    "default_icon": {
+      "48": "icons/icon.png",
+      "96": "icons/icon@2x.png"
+    },
+    "default_title":"__MSG_addonName__",
+    "default_panel": "sidebar.html",
+    "open_at_install": false
   }
 }

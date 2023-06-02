@@ -19,3 +19,7 @@ browser.webRequest.onBeforeSendHeaders.addListener(
     { urls: ["<all_urls>"] },
     ["blocking", "requestHeaders"]
 );
+
+browser.browserAction.onClicked.addListener(() => {
+    browser.sidebarAction.toggle();
+});

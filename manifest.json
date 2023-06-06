@@ -19,7 +19,7 @@
     "*://*.live.com/*"
   ],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["src/background.js"]
   },
   "browser_action": {
     "default_icon": "icons/icon.png",
@@ -31,7 +31,7 @@
       "96": "icons/icon@2x.png"
     },
     "default_title":"__MSG_addonName__",
-    "default_panel": "sidebar.html",
+    "default_panel": "src/sidebar.html",
     "open_at_install": false
   }
 }

@@ -6,6 +6,8 @@
 
 This repository contains a Firefox add-on that modifies the user-agent string sent with requests to [bing.com](http://bing.com), [msn.com](http://msn.com), [live.com](http://live.com). It modifies the user-agent string to appear as if the request is coming from the Microsoft Edge browser. Bing Chat is only available on Microsoft Edge.
 
+It also provides a sidebar panel that displays Bing Chat.
+
 ## Installation
 
 You can install the add-on from the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/enable-bing-chat/) website.
@@ -32,7 +34,7 @@ To use the add-on:
 
 1. Make sure the add-on is installed and enabled in Firefox.
 
-2. Navigate to [Bing Chat](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx).
+2. Navigate to [Bing Chat](https://www.bing.com/chat) or click on the add-on to open the [Bing Chat](https://www.bing.com/chat) sidebar.
 
 3. The add-on will automatically modify the user-agent string to enable Bing Chat in Firefox.
 

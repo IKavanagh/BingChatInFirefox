@@ -4,7 +4,7 @@
   "default_locale": "en_GB",
   "description": "__MSG_addonDescription__",
   "author": "__MSG_addonAuthorsList__",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage_url": "https://github.com/IKavanagh/BingChatInFirefox",
   "icons": {
     "48": "icons/icon.png",

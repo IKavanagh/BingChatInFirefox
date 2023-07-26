@@ -14,9 +14,7 @@
     "activeTab",
     "webRequest",
     "webRequestBlocking",
-    "*://*.bing.com/*",
-    "*://*.msn.com/*",
-    "*://*.live.com/*"
+    "*://*.bing.com/*"
   ],
   "background": {
     "scripts": ["src/background.js"]

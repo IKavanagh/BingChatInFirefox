@@ -21,7 +21,7 @@ browser.webRequest.onBeforeSendHeaders.addListener(
 
         return { requestHeaders: details.requestHeaders };
     },
-    { urls: ["*://*.bing.com/*"] },
+    { urls: ["*://*.bing.com/*", "*://*copilot.microsoft.com/*"] },
     ["blocking", "requestHeaders"]
 );
 

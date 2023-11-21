@@ -4,7 +4,7 @@
   "default_locale": "en_GB",
   "description": "__MSG_addonDescription__",
   "author": "__MSG_addonAuthorsList__",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "homepage_url": "https://github.com/IKavanagh/BingChatInFirefox",
   "icons": {
     "48": "icons/icon.png",
@@ -17,7 +17,9 @@
     "*://*.bing.com/*"
   ],
   "background": {
-    "scripts": ["src/background.js"]
+    "scripts": [
+      "src/background.js"
+    ]
   },
   "browser_action": {
     "default_icon": "icons/icon.png",
@@ -28,7 +30,7 @@
       "48": "icons/icon.png",
       "96": "icons/icon@2x.png"
     },
-    "default_title":"__MSG_addonName__",
+    "default_title": "__MSG_addonName__",
     "default_panel": "src/sidebar.html",
     "open_at_install": false
   }

@@ -4,7 +4,7 @@
   "default_locale": "en_GB",
   "description": "__MSG_addonDescription__",
   "author": "__MSG_addonAuthorsList__",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "browser_specific_settings": {
     "gecko_android": {
       "strict_min_version": "117.0"
